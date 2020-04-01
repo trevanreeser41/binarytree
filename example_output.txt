@@ -1,0 +1,111 @@
+Lookups:
+F
+B
+I
+
+DFS preorder:
+c C
+a A
+b B
+h H
+e E
+d D
+f F
+g G
+k K
+j J
+i I
+l L
+
+DFS inorder:
+a A
+b B
+c C
+d D
+e E
+f F
+g G
+h H
+i I
+j J
+k K
+l L
+
+DFS postorder:
+b B
+a A
+d D
+g G
+f F
+e E
+i I
+j J
+l L
+k K
+h H
+c C
+
+BFS:
+c C
+a A
+h H
+b B
+e E
+k K
+d D
+f F
+j J
+l L
+g G
+i I
+
+Initial tree:
+c
+├── a Ⲗ
+│   └── b ῥ
+└── h ῥ
+    ├── e Ⲗ
+    │   ├── d Ⲗ
+    │   └── f ῥ
+    │       └── g ῥ
+    └── k ῥ
+        ├── j Ⲗ
+        │   └── i Ⲗ
+        └── l ῥ
+
+Remove b:
+c
+├── a Ⲗ
+└── h ῥ
+    ├── e Ⲗ
+    │   ├── d Ⲗ
+    │   └── f ῥ
+    │       └── g ῥ
+    └── k ῥ
+        ├── j Ⲗ
+        │   └── i Ⲗ
+        └── l ῥ
+
+Remove f:
+c
+├── a Ⲗ
+└── h ῥ
+    ├── e Ⲗ
+    │   ├── d Ⲗ
+    │   └── g ῥ
+    └── k ῥ
+        ├── j Ⲗ
+        │   └── i Ⲗ
+        └── l ῥ
+
+Remove h:
+c
+├── a Ⲗ
+└── i ῥ
+    ├── e Ⲗ
+    │   ├── d Ⲗ
+    │   └── g ῥ
+    └── k ῥ
+        ├── j Ⲗ
+        └── l ῥ
+
